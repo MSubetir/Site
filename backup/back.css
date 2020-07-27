@@ -1,0 +1,298 @@
+html, body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.menu{
+    display: flex;
+    background: #1a1b1e;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px dashed #fff ;
+}
+.menu li{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+}
+.menu li:first-child{
+    margin-right: auto;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    font-size: 5vh;
+    text-decoration:underline;
+    margin: 0.5em;
+}
+.submenu{
+    opacity: 0.9;
+    height: 50%;
+    width: 15%;
+    font-size: 3vh;
+    border-color: #67686b;
+    box-shadow: 0 0 40px 40px #67686b inset, 0 0 0 0 #67686b;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    color: #fff;
+}
+.submenu:hover{
+    box-shadow: 0 0 10px 0 #67686b inset, 0 0 10px 4px #67686b;
+    color: #1a1b1e;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+}
+.imgProject{
+    height: 50%;
+    width: 70%;
+    border-radius: 3%;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.contato{
+    font-size: large;
+}
+
+.section1{
+    display: flex;
+    height: 110vh;
+    background-color: #1a1b1e;
+    width: 100vw;
+}
+.perfil{
+    height: 70vh;
+    border-radius: 10%;
+}
+.botao{
+    background-color: #67686b;
+    border-radius: 10%;
+    padding: 2%;
+    text-decoration: none;
+    color: #fff;
+}
+.botoes{
+    display: flex;
+    justify-content: flex-start;
+    height: 10%;
+    width: 80%;
+}
+.botoes > a > button{
+    background: #fff;
+    border: 2px solid;
+    font-size: 2.5vh;
+    border-radius: 3%;
+    margin: 1vh;
+}
+.icones > a > img{
+    height: 3vh;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100vw;
+    background-color: #f8f9fa;
+    transition: .3s;
+}
+.principais{
+    display:flex;
+    position: absolute;
+}
+.prototipos{
+    display: flex;
+    position: relative;
+    transform: translateX(100vw);
+}
+
+
+
+.passagem{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 10%;
+    width: 90%;
+}
+
+.projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow-x: auto;
+    height: 75%;
+    width: 100%;
+    overflow-y: hidden;
+
+    
+}
+
+
+.projetos > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    background: #fff;
+    border-radius: 3%;
+    
+}
+p, li{
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 2.5vh;
+    margin-top: 0;
+}
+
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1b1e;
+    height: 50vh;
+    transition: .3s;
+    width: 100vw;
+}
+.ensino{
+    display:flex;
+    position: absolute;
+    transform: translateX(-100vw);
+    flex-direction: row;
+}
+.mim{
+    display:flex;
+    position: absolute;
+}
+.xp{
+    display:flex;
+    position: relative;
+    transform: translateX(100vw);
+    flex-direction: row;
+}
+
+
+.menos100{
+    transform: translateX(-100vw);
+}
+.zero{
+    transform: translateX(0vw);
+}
+.mais100{
+    transform: translateX(100vw);
+}
+
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 60vh;
+    width: 100vw;
+}
+.section3 > div, .section4 > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.formacao, .empregos{
+    width: 90%;
+    padding: 0;
+}
+.formacao > li{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3vh;
+    font-size: large;
+}
+.formacao > li > p{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size: large;
+    color:#f8f9fabb;
+}
+
+.empregos > li{
+  
+    padding-bottom: 2vh;
+    font-size: large;
+}
+.empregos > li > p{
+    text-align: left;
+    font-size: large;
+    color:#f8f9fabb;
+}
+
+
+.oportunidades > div{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    height:40%;
+}
+.oportunidades > div > a{
+    width: 40%;
+}
+.oportunidades > div > a > p{
+    color: rgb(66, 135, 158); 
+    text-decoration: overline;
+}
+.oportunidades > div > a > img, .formacao > li > img{
+    height: 7vh;
+}
+
+.skills{
+    margin-right: 4vh;
+}
+
+.skills > div{
+    width: 32%;
+    height: 90%;
+    overflow-y: auto;
+}
+
+.skills > div > h1{
+    padding-left: 40px;
+    font-size: 4.5vh;
+    color: #1a1b1e;
+}
+
+.skills > div > ul{
+    margin-bottom: 7vh;
+}
+
+.skills > div > ul > p{
+    font-size: 3vh;
+    color: #1a1b1e;
+    text-decoration: underline;
+}
+
+.skills > div > ul > li{
+    color: #1a1b1e;
+    list-style-type: circle;
+}
+
+
+
+
+
