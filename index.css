@@ -50,6 +50,7 @@ nav > a {
     font-family: Pacifico, serif;
     color: #f1f1f1;
     margin: 1vh;
+    border-bottom: #f1f1f1 1px double;
 }
 nav ul{
     list-style: none;
@@ -62,6 +63,9 @@ nav ul{
 nav ul li {
     text-align: center;
     width: 100%;
+}
+nav ul li:hover{
+    box-shadow: 0 0 10px 0 #67686b inset, 0 0 10px 4px #67686b;
 }
 
 nav ul li a {
@@ -147,7 +151,7 @@ PROJETOS
 .mostruario > div{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     width: 90%;
     height: 95%;
@@ -156,7 +160,7 @@ PROJETOS
 }
 
 .mostruario > div > div:first-child{
-    height: 85%; 
+    height: 80%; 
     width: 80%;
     overflow-y: auto;
     
@@ -194,7 +198,7 @@ PROJETOS
 
 .transform button{
     opacity: 0.9;
-    height: 50%;
+    height: 75%;
     width: 30%;
     font-size: .8em;
     border-color: #67686b;
@@ -418,7 +422,9 @@ MEDIA QUERIES
 
     nav > a {
         font-size: 2.5em;
+        border-bottom: #f1f1f1 0px double;
     }
+    
 
     /*
     CABEÇALHO
