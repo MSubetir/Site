@@ -92,7 +92,7 @@ CABEÇALHO
 }
 
 .header img.perfil{
-    height: 50%;
+    height: 60%;
     border-radius: 10%;
 }
 
@@ -106,7 +106,7 @@ CABEÇALHO
     font-size: .9em;
 }
 .icones{
-    height: 10%;
+    height: 5%;
 }
 .icones > a > img{
     height: 3vh;
@@ -191,14 +191,14 @@ PROJETOS
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     height: 7vh;
     width: 90%;
 }
 
-.transform button{
+.transform button, .transform div button{
     opacity: 0.9;
-    height: 75%;
+    height: 60%;
     width: 30%;
     font-size: .8em;
     border-color: #67686b;
@@ -457,7 +457,7 @@ MEDIA QUERIES
         height: 95vh;
     }
 
-    .transform button{
+    .transform button, .transform div button{
         height: 75%;
         font-size: 1em;
     }
@@ -501,7 +501,7 @@ MEDIA QUERIES
         height: 110vh;
     }
 
-    .transform button{
+    .transform button, .transform div button{
         width: 15%;
     }
 
