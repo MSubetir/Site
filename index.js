@@ -5,12 +5,16 @@ ensino = document.querySelector('.ensino')
 meio = document.querySelector('.descricao')
 xp = document.querySelector('.experiencia')
 
-/*
+projects = document.querySelector('div.mostruario')
 skills = document.querySelector('.competencias div')
+
+projects_size = projects.scrollHeight
 scroll_size = skills.scrollHeight
-console.log(scroll_size)
-skills.scrollLeft = scroll_size/3;
-*/
+
+projects.scrollLeft = projects_size/3.2;
+skills.scrollLeft = scroll_size/4;
+
+
 function sair(){
     princi.classList.remove('zero');
     proto.classList.add('zero');

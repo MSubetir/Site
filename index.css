@@ -213,7 +213,7 @@ PROJETOS
 .transform button, .transform div button{
     opacity: 0.9;
     height: 60%;
-    width: 30%;
+    width: 35%;
     font-size: .8em;
     border-color: #67686b;
     box-shadow: 0 0 40px 40px #67686b inset, 0 0 0 0 #67686b;
@@ -238,7 +238,7 @@ SOBRE
     justify-content: center;
     align-items: center;
     background-color: #1a1b1e;
-    height: 70vh;
+    height: 80vh;
     transition: .3s;
     width: 100vw;
 }
@@ -312,7 +312,8 @@ SKILLS
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    height: 100vh;
+    
+    height: 80vh;
     width: 100vw;
     
 }
@@ -335,7 +336,7 @@ SKILLS
     overflow-y: scroll;
     overflow-x: hidden;
     display: inline-block;
-    padding: 2em;
+    padding: 1em;
 }
 
 .competencias div > div > h1{
@@ -344,10 +345,11 @@ SKILLS
 }
 
 .competencias div > div > ul{
-    margin-bottom: 7vh;
-    height: 45%;
+    margin-bottom: 5vh;
     width: 90%;
     padding: 0;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .competencias div > div > ul > p{
@@ -372,7 +374,7 @@ CONTATO
     justify-content: center;
     align-items: center;
     background-color: #1a1b1e;
-    height: 50vh;
+    height: 70vh;
     transition: .3s;
     width: 100vw;
     
@@ -465,12 +467,15 @@ MEDIA QUERIES
 
     .transform button, .transform div button{
         height: 75%;
+        width: 25%;
         font-size: 1em;
     }
 
     .botoes > a{
         font-size: 1em;
     }
+
+    
 
      /*
     SOBRE MIM
@@ -492,9 +497,6 @@ MEDIA QUERIES
         font-size: 1.4em;
     }
 
-    .competencias div > div > ul{
-        margin-bottom: 10vh;
-    }
 }
 
 @media screen and (min-width: 1100px) {
@@ -532,9 +534,7 @@ MEDIA QUERIES
     */
 
 
-    .competencias div > div > ul{
-        margin-bottom: 7vh;
-    }
+    
     
 
      /*
