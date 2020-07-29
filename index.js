@@ -8,11 +8,11 @@ xp = document.querySelector('.experiencia')
 projects = document.querySelector('div.mostruario')
 skills = document.querySelector('.competencias div')
 
-projects_size = projects.scrollHeight
-scroll_size = skills.scrollHeight
+projects_size = projects.scrollWidth
+scroll_size = skills.scrollWidth
 
-projects.scrollLeft = projects_size/3.2;
-skills.scrollLeft = scroll_size/4;
+projects.scrollLeft = projects_size/4.4;
+skills.scrollLeft = scroll_size/5.3;
 
 
 function sair(){
