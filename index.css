@@ -247,7 +247,7 @@ SOBRE
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 95%;
     overflow: auto;
 }
 
@@ -260,6 +260,9 @@ SOBRE
 .descricao{
     display:flex;
     position: absolute;
+}
+.descricao > div > p{
+    height: 90%;
 }
 .experiencia{
     display:flex;
