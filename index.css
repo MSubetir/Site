@@ -92,6 +92,10 @@ CABEÇALHO
     border-radius: 10%;
 }
 
+.header p{
+    width: 80%;
+}
+
 .header a.botao{
     background-color: #67686b;
     border-radius: 10%;
@@ -401,6 +405,22 @@ CONTATO
 
 .oportunidades div > div > a > img{
     height: 5vh;
+}
+
+
+/*
+DIRETOS
+*/
+.direitos{
+    height: 10vh;
+}
+.direitos p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #000;
+    height: 100%;
 }
 
 
