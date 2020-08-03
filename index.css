@@ -266,6 +266,8 @@ SOBRE
     position: absolute;
 }
 .descricao > div > p{
+    display: flex;
+    align-items: center;
     height: 90%;
 }
 .experiencia{
