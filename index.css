@@ -284,7 +284,7 @@ SOBRE
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
 }
 .formacao > li{
     display: flex;
@@ -294,8 +294,9 @@ SOBRE
 }
 .formacao > li > p{
     margin: 0vw 2vw 0vw 2vw;
-   
+    text-align: center;
     color:#f8f9fabb;
+    width: 100%;
 }
 .formacao > li > img{
     width: 15vw;
@@ -306,8 +307,9 @@ SOBRE
     padding: 2vh;
 }
 .empregos > li > p{
-    text-align: left;
+    text-align: center;
     color:#f8f9fabb;
+
 }
 
 /*
@@ -525,12 +527,15 @@ MEDIA QUERIES
 }
 
 @media screen and (min-width: 1100px) {
-
+    
+    .formacao > li > p, .empregos > li > p{
+        font-size: 1.1em;
+    }
     p, li, a{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.2em;
     }
-
+    
     
 
     /*
@@ -554,6 +559,7 @@ MEDIA QUERIES
     }
     
 
+    
 
      /*
     CONTATO
