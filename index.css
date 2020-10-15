@@ -157,6 +157,7 @@ PROJETOS
     height: 95%;
     background: #fff;
     border-radius: 3%;  
+    overflow: hidden;
 }
 .mostruario > div > div:first-child{
     height: 80%; 
