@@ -10,7 +10,7 @@
     <script src="./index.js" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Pacifico&
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Ubuntu&
         family=Roboto+Slab:wght@100;700&display=swap"
         rel="stylesheet">
     <link href="./normalize.css" rel="stylesheet" type="text/css">
@@ -49,11 +49,43 @@
         <h1 id="projetos" style="color: #1a1b1e;">PROJETOS</h1>
 
         <div class="transform" style="justify-content: flex-end;">
-            <button onclick="sair()">RECENTES</button>
+            <button onclick="sair()">OUTROS</button>
         </div>
 
-
         <div class="mostruario">
+            <div>
+                <div>
+                    <img class="imgProject" src="./src/sinais_vitais.gif">
+                    <p>Acompanhamento médico remoto. O Arduíno coleta os dados vitais do paciente e os envia para o banco de dados do centro de saúde. 
+                        A plataforma do centro de saúde usa um algorítimo de inteligência artifical para análise dos dados, 
+                        além de uma Estrutura empresarial (BI) na exibição dos mesmos.
+                    </p>
+                    <ul>
+                        <li>Arduíno/Sensores/ESP01</li>
+                        <li>PHP/Arquitetura MVC</li>
+                        <li>JavaScript</li>
+                        <li>IBM Watson</li>
+                        <li>Business intelligence</li>
+                        <li>MySQL</li>
+                        <li>Modelagem de dados</li>
+                        <li>Bootstrap</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                </div>
+                <div class="botoes">
+                    <a
+                        href="https://view.genial.ly/60639cdcb2064f0d447ac819/presentation-medidor-de-sinais-vitais"><button
+                            style="border-color: #90ee90; color: #90ee90;">Apresentação</button></a>
+                    <a
+                        href="https://www.youtube.com/watch?v=OU9DZTPS30I&list=PLLnPrAWrmEtrfIDLRVUAnFtk-PIgAY9qZ"><button
+                            style="border-color: #ee9098; color: #ee9098;">Vídeos</button></a>
+                            <a href="https://automasense.000webhostapp.com/pages/login"><button
+                                style="border-color: #996ddf; color: #996ddf;">Site</button></a>
+                    <a href="https://github.com/MSubetir/Sinais_Vitais"><button
+                           style="border-color: #00bfff; color: #00bfff;">Código</button></a>
+                </div>
+            </div>
+
             <div>
                 <div>
                     
@@ -77,6 +109,20 @@
                         style="border-color: #00bfff; color: #00bfff;">Código</button></a>
                 </div>
             </div>
+   
+        </div>
+
+
+    </div>
+
+    <div class="projetos b">
+        <h1 style="color: #1a1b1e;">OUTROS</h1>
+        <div class="transform" style="justify-content: flex-start;">
+            <button onclick="entrar()" class="submenu">DESTAQUES</button>
+        </div>
+
+
+        <div class="mostruario">
 
             <div>
                 <div>
@@ -106,20 +152,6 @@
                 </div>
             </div>
 
-            
-        </div>
-
-
-    </div>
-
-    <div class="projetos b">
-        <h1 style="color: #1a1b1e;">RECENTES</h1>
-        <div class="transform" style="justify-content: flex-start;">
-            <button onclick="entrar()" class="submenu">DESTAQUES</button>
-        </div>
-
-
-        <div class="mostruario">
             <div>
                 <div>
                     <img class="imgProject" src="./src/random.gif">
@@ -136,7 +168,7 @@
                 </div>
                 <div class="botoes">
                     <a href="https://randomizer-2173.web.app"><button
-                        style="border-color: #996ddf; color: #996ddf;">Web</button></a>
+                        style="border-color: #996ddf; color: #996ddf;">Site</button></a>
                     <a href="https://github.com/MSubetir/Randomizer"><button
                             style="border-color: #00bfff; color: #00bfff;">Código</button></a>
                 </div>
@@ -145,7 +177,7 @@
             <div>
                 <div>
                     <img class="imgProject" src="./src/gcovid.gif">
-                    <p>Número de Casos de COVID-19 no Brasil em um Gráfico de velas responsivo.
+                    <p>Número de Casos de COVID-19 de 2020 no Brasil em um Gráfico de velas responsivo.
                         Atualizado diariamente de acordo com dados do Centro de Prevenção e Controle de Doenças Europeu.
                     </p>
                     <ul>
@@ -157,8 +189,8 @@
                     </ul>
                 </div>
                 <div class="botoes">
-                    <a href="https://bit.ly/brcovidcases"><button
-                        style="border-color: #996ddf; color: #996ddf;">Web</button></a>
+                    <a href="http://gcovid.epizy.com/"><button
+                        style="border-color: #996ddf; color: #996ddf;">Site</button></a>
                     <a href="https://github.com/MSubetir/Graph-covid"><button
                             style="border-color: #00bfff; color: #00bfff;">Código</button></a>
                 </div>
@@ -237,7 +269,7 @@
                 </div>
                 <div class="botoes">
                     <a href="https://pedantic-visvesvaraya-d411af.netlify.app/"><button
-                        style="border-color: #996ddf; color: #996ddf;">Web</button></a>
+                        style="border-color: #996ddf; color: #996ddf;">Site</button></a>
                     <a href="https://github.com/MSubetir/Calculadora"><button
                             style="border-color: #00bfff; color: #00bfff;">Código</button></a>
                 </div>
@@ -326,7 +358,7 @@ Sou Técnico em Informática, formado pelo Instituto Federal Catarinense (IFC) -
 
                 <ul class="empregos">
                     <li>
-                        <p><strong style="color: #fff;">Beepay | 2020</strong><br>
+                        <p><strong style="color: #fff;">Beepay | 2020 - Atual</strong><br>
                             <strong>Desenvolvedor Fullstack</strong> - Assessoria de desenvolvimento de aplicativos mobile IOS/Android.</p>
                     </li>
                     <li>
