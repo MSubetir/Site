@@ -170,13 +170,14 @@ PROJETOS
     flex-direction: column;
 }
 .imgProject{
-    width: 75%;
+    width: 65%;
     border-radius: 3%;
     margin-bottom: 3%;
 }
 
 .mostruario > div > div > p, .mostruario > div > div > ul > li{
-    color: #000
+    color: #000;
+    font-size: 1em;
 }
 
 .mostruario > div > div > p, .mostruario > div > div > ul{
@@ -496,7 +497,7 @@ MEDIA QUERIES
     }
 
     .projetos{
-        height: 95vh;
+        height: 90vh;
     }
 
     .transform button, .transform div button{
@@ -550,7 +551,7 @@ MEDIA QUERIES
     */
 
     .projetos{
-        height: 110vh;
+        height: 95vh;
     }
 
     .transform button, .transform div button{
